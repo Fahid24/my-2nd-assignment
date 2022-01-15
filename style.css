@@ -1,0 +1,178 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:wght@400;500&display=swap');
+
+/* commomn style or utilities */
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #d8d5d5 ;
+
+}
+header{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containers{
+    display: flex;
+    
+  
+    
+}
+.container{
+    width: 580px;
+    height:270px ;
+    padding-left: 100px;
+    padding-top: 100PX;
+   
+    
+
+}
+.container h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 70px
+}
+span{
+    display: block;
+}
+.container p{
+    font-weight: 600;
+    font-size: 16px;
+    text-align: justify;
+}
+.container a{
+  
+
+    text-decoration: none;
+    color: cornsilk;
+    border-radius: 40px;
+   
+    padding: 10px 24px;
+
+    background-color: rgb(241, 11, 11);
+
+}
+.container a:hover{
+    background-color: hotpink;
+}
+.fas{
+    color: cornsilk;
+    padding-left: 5px;
+    font-size: 15px;
+}
+.container img{
+    width: 440px;
+    height: 414px;
+    
+}
+
+/* 2nd section style
+collections style*/
+
+
+.collections {
+    
+    position: absolute;
+    width: 1047px;
+    height: 1662px;
+    left: 200px;
+    top: 700px;
+    background-color: #d8d5d5 ;
+    margin-top: 100px;
+
+
+}
+.section-top-text{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 70px;
+    padding-right:40px;
+    text-align: center;
+
+}
+.collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+    
+}
+.products{
+    border-radius: 10px;
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 15px;
+   
+  
+
+    
+
+}
+
+.collection img{
+    width: 300px;
+height: 310px;
+left: 210px;
+top: 1052px;
+border-radius: 5px;
+}
+.fa-star{
+    color: orange;
+    font-size: 16px;
+}
+.articals{
+    color: gray;
+}
+
+
+/* -------footer ---- */
+
+footer{
+    background-color: #110825;
+    color: white;
+    margin-top: 2300px;
+    padding-left: 0%;
+    text-align: center;
+    }
+    .footer_title{
+         font-size: 24px;
+         padding-top:50px;
+    }
+    .footer_desc{
+         margin: 0px;
+         font-size: 16px;;
+    }
+    footer span{
+         display:block
+    }
+    .social_icons a{
+         text-decoration: none;
+         color:white;
+    }
+    
+    .fab{
+         font-size: 30px;
+         margin-left: 30px;;
+         padding-top: 10px;
+         height: 35px;
+         width: 35px;
+         padding: 2px;
+         border-radius: 50%;
+         margin-bottom: 0px;
+         background-color: rgba(160, 160, 160, 0.171);
+    }
+    .social_icons{
+         padding-bottom: 50px;;
+    }
